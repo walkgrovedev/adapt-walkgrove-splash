@@ -6,12 +6,17 @@ define([
 
   var SplashView = ComponentView.extend({
 
+    events: {
+      'click .js-splash-start-click': 'onContinueClicked'
+    },
+
     preRender: function() {
       this.checkIfResetOnRevisit();
     },
 
     postRender: function() {
       this.setReadyStatus();
+      this.setCompletionStatus();
     },
 
     checkIfResetOnRevisit: function() {
@@ -21,7 +26,13 @@ define([
       if (isResetOnRevisit) {
         this.model.reset(isResetOnRevisit);
       }
+    },
+
+    onContinueClicked: function() {
+      console.log("HOME");
+      Adapt.router.navigateToHomeRoute();
     }
+
   },
   {
     template: 'splash'
