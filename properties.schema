@@ -29,6 +29,57 @@
       "validators": [],
       "help": "This is the instruction text",
       "translatable": true
+    },
+    "buttonText": {
+      "type": "string",
+      "required": true,
+      "translatable": true
+    },
+    "_graphic": {
+      "type": "object",
+      "required": true,
+      "properties": {
+        "large": {
+          "type": "string",
+          "required": true,
+          "default": "",
+          "title": "Splash LARGE image",
+          "inputType": "Text",
+          "validators": [],
+          "help": "",
+          "translatable": false
+        },
+        "small": {
+          "type": "string",
+          "required": true,
+          "default": "",
+          "title": "Splash SMALL image",
+          "inputType": "Text",
+          "validators": [],
+          "help": "",
+          "translatable": false
+        },
+        "portrait": {
+          "type": "string",
+          "required": true,
+          "default": "",
+          "title": "Splash PORTRAIT image",
+          "inputType": "Text",
+          "validators": [],
+          "help": "",
+          "translatable": false
+        },
+        "alt": {
+          "type": "string",
+          "required": true,
+          "default": "",
+          "title": "Splash image ALT",
+          "inputType": "Text",
+          "validators": [],
+          "help": "",
+          "translatable": true
+        }
+      }
     }
   }
 }

@@ -1,10 +1,6 @@
 {
     "name": "adapt-walkgrove-splash",
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/walkgrovedev/adapt-walkgrove-splash.git"
-    },
-    "framework": "5",
+    "framework": ">=5",
     "version": "1.0.0",
     "homepage": "https://github.com/walkgrovedev/adapt-walkgrove-splash.git",
     "component": "splash",

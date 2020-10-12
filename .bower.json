@@ -1,10 +1,6 @@
 {
   "name": "adapt-walkgrove-splash",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/walkgrovedev/adapt-walkgrove-splash.git"
-  },
-  "framework": "5",
+  "framework": ">=5",
   "homepage": "https://github.com/walkgrovedev/adapt-walkgrove-splash.git",
   "component": "splash",
   "displayName": "Splash",
@@ -15,14 +11,14 @@
     "adapt-component"
   ],
   "license": "GPL-3.0",
-  "_release": "1fce27aa1c",
+  "_release": "1.0.0",
   "_resolution": {
     "type": "branch",
     "branch": "master",
     "commit": "1fce27aa1c6b9dacc21237d3b37956c4dd95682f"
   },
   "_source": "git://github.com/walkgrovedev/adapt-walkgrove-splash.git",
-  "_target": "*",
+  "_target": "1.0.0",
   "_originalSource": "adapt-walkgrove-splash",
   "_direct": true
 }
