@@ -11,14 +11,14 @@
     "adapt-component"
   ],
   "license": "GPL-3.0",
-  "_release": "1.0.0",
+  "_release": "95d154cafe",
   "_resolution": {
     "type": "branch",
     "branch": "master",
-    "commit": "1fce27aa1c6b9dacc21237d3b37956c4dd95682f"
+    "commit": "95d154cafedc1ccb33e57edd5853050fa23f265f"
   },
   "_source": "git://github.com/walkgrovedev/adapt-walkgrove-splash.git",
-  "_target": "1.0.0",
+  "_target": "*",
   "_originalSource": "adapt-walkgrove-splash",
   "_direct": true
 }
